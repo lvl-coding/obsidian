@@ -44,20 +44,3 @@
 5. 尝试上传下载
 ![[Pasted image 20250319161146.png]]
 ![[Pasted image 20250319161140.png]]
-1. ![计算机生成了可选文字:
-    此，D“W'U'WR。。t1g2．16&10.89@1閬80〕〔乙〕
-    名称
-    test
-    匚〕TyproaActivationScript.7z
-    修改凸期
-    2025/1/g1035
-    2025/1/714巧6
-    7Z
-    0KB
-    155KB](file:///C:/Users/lyl/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
-
-2. ![计算机生成了可选文字:
-    kvirtadm@template:/mnt/webdav$Is
-    lost+found
-    test
-    Typroa_ActatrI-pt.7z](file:///C:/Users/lyl/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)

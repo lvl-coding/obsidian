@@ -1,5 +1,8 @@
 {
   "strictLineBreaks": false,
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": "PNG",
+  "attachmentFolderPath": "PNG"
 }

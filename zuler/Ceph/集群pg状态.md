@@ -9,7 +9,6 @@ pg的活跃个数不小于min_size时即可处理IO
 [基于](https://www.infoq.cn/article/consistency-storage-problem-of-ceph-based-on-pglog)pglog的Ceph一致性存储问题_语言 & 开发_吴东_InfoQ精选文章
  
 [https://www.cnblogs.com/sunbines/p/15692521.html](https://www.cnblogs.com/sunbines/p/15692521.html)
-
 ![Exported image](Exported%20image%2020250319160000-0.png)   ![Exported image](Exported%20image%2020250319160002-1.jpeg)
 
 三副本下ceph 读请求在PG的主OSD上为同步IO，纠删码模式下为异步读  

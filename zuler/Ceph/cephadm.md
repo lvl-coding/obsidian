@@ -28,5 +28,6 @@ cephadm bootstrap --mon-ip *<mon-ip>*
 下载docker的配置文件eg: {"url":"REGISTRY_URL", "username":"REGISTRY_USERNAME", "password":"REGISTRY_PASSWORD"}￼  
 cephadm shell  
 会在安装了所有 Ceph 软件包的容器中启动 bash shell，会在/etc/ceph目录下找到密钥和配置文件，由此进入docker环境中。在mon节点上运行时则会在mon容器中获取配置，如果指定了--mount参数，则路径会挂在到docker中的/mnt路径下
+	--images 指定cephadm进入shell环境时的ceph 镜像版本
  
 # 解散集群

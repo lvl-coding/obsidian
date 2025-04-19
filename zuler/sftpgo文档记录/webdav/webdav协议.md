@@ -1,5 +1,8 @@
-# [WebDAV](https://fullstackplayer.github.io/WebDAV-RFC4918-CN/) 规范文档（RFC4918）中文版 | WebDAV 规范文档
+[WebDAV](https://fullstackplayer.github.io/WebDAV-RFC4918-CN/) 规范文档（RFC4918）中文版 | WebDAV 规范文档
 
+[HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV) 4918](https://datatracker.ietf.org/doc/html/rfc4918)
+
+[HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV) 2518](https://datatracker.ietf.org/doc/html/rfc2518)
 # PUT请求创建了文件
 
 在现有资源上执行的PUT将替换资源GET得到的响应实体。在PUT处理期间，资源上定义的属性可以重新计算，但是资源本身内容不受影响。例如，如果服务器识别出请求body的内容类型，则它可能能够自动从属性中提取有帮助的信息。  

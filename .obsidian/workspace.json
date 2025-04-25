@@ -15,7 +15,8 @@
               "state": {
                 "aFile": ".obsidian/workspace.json",
                 "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "aRef": "HEAD",
+                "bRef": ""
               },
               "icon": "diff",
               "title": "Diff: workspace.json"
@@ -179,6 +180,7 @@
   },
   "active": "06ce93a7e611a16e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "lyl的笔记本/CPP/C++ 11 新特性.md",
     "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
     "lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）/C++11141720 特性介绍（转载）.md",
@@ -187,7 +189,6 @@
     "表格存储.md",
     "PNG/Pasted image 20250423105153.png",
     "PNG/Pasted image 20250421174002.png",
-    "conflict-files-obsidian-git.md",
     "zuler/sftpgo文档记录/webdav/windows webclient报错.md",
     "zuler/iscsi/ISCSI协议.md",
     "zuler/iscsi",

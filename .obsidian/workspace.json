@@ -4,55 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "141d181f15de1185",
+        "id": "d9dba9fb9cfc2fd5",
         "type": "tabs",
         "children": [
           {
-            "id": "3eb8280553571e8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C++ 14, C++ 17 新特性"
-            }
-          },
-          {
-            "id": "80319e372831a81d",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "表格存储.md",
-                "bFile": "表格存储.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 表格存储"
-            }
-          },
-          {
-            "id": "0665b15eaeac0c5d",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "zuler/iscsi/ISCSI协议.md",
-                "bFile": "zuler/iscsi/ISCSI协议.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: ISCSI协议"
-            }
-          },
-          {
-            "id": "c19ab741db4b2dd1",
+            "id": "06ce93a7e611a16e",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
@@ -65,8 +21,7 @@
               "title": "Diff: workspace.json"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,28 +177,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c19ab741db4b2dd1",
+  "active": "06ce93a7e611a16e",
   "lastOpenFiles": [
+    "lyl的笔记本/CPP/C++ 11 新特性.md",
+    "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
+    "lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）/C++11141720 特性介绍（转载）.md",
+    "README.md",
+    "待办清单.md",
+    "表格存储.md",
     "PNG/Pasted image 20250423105153.png",
     "PNG/Pasted image 20250421174002.png",
     "conflict-files-obsidian-git.md",
-    "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
-    "表格存储.md",
     "zuler/sftpgo文档记录/webdav/windows webclient报错.md",
     "zuler/iscsi/ISCSI协议.md",
     "zuler/iscsi",
     "zuler/TCP滑动窗口.md",
     "zuler/RBD远端挂载.md",
     "PNG/Pasted image 20250422150247.png",
-    "lyl的笔记本/CPP/C++ 11 新特性.md",
     "lyl的笔记本/CPP/工厂模式及其实现.md",
     "lyl的笔记本/CPP/单例模式及其实现.md",
     "lyl的笔记本/CPP/常见设计模式.md",
     "OneNote/lyl的笔记本/CPP/运算符优先级.md",
     "lyl的笔记本/CPP/运算符优先级.md",
     "lyl的笔记本/CPP/优先级队列.md",
-    "待办清单.md",
-    "README.md",
     "zuler/windows脚本.md",
     "zuler/vdbench工具使用.md",
     "zuler/ubuntu.md",

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0d656974ab0c7f38",
+        "id": "141d181f15de1185",
         "type": "tabs",
         "children": [
           {
-            "id": "f7ae511bb8f36dd4",
+            "id": "3eb8280553571e8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/rgw用户记录.md",
+                "file": "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rgw用户记录"
-            }
-          },
-          {
-            "id": "c2c99cfa5ed9ffe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OneNote/lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "iostat -d -x -k 1 1"
+              "title": "C++ 14, C++ 17 新特性"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "C++ 14, C++ 17 新特性 的大纲"
             }
           },
           {
@@ -193,55 +179,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2c99cfa5ed9ffe7",
+  "active": "3eb8280553571e8c",
   "lastOpenFiles": [
-    "zuler/Ceph/BlueStore.md",
-    "OneNote/lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
+    "lyl的笔记本/CPP/C++ 11 新特性.md",
+    "lyl的笔记本/CPP/工厂模式及其实现.md",
+    "lyl的笔记本/CPP/单例模式及其实现.md",
+    "lyl的笔记本/CPP/常见设计模式.md",
+    "OneNote/lyl的笔记本/CPP/运算符优先级.md",
+    "lyl的笔记本/CPP/运算符优先级.md",
+    "lyl的笔记本/CPP/优先级队列.md",
     "待办清单.md",
     "README.md",
-    "zuler/服务器配置.md",
-    "zuler/Ceph/ceph命令.md",
-    "zuler/sftpgo文档记录/webdav/webdav协议.md",
-    "zuler/sftpgo文档记录/网页资料.md",
-    "zuler/sftpgo文档记录/远程监控.md",
-    "zuler/sftpgo文档记录/支持项.md",
-    "zuler/sftpgo文档记录/HOOK.md",
-    "zuler/sftpgo文档记录/REST api.md",
-    "zuler/sftpgo文档记录/sftpgo docker.md",
-    "zuler/sftpgo文档记录/sftpgo虚拟机部署.md",
-    "zuler/sftpgo文档记录/WebDAV.md",
-    "zuler/sftpgo文档记录/webdav/webdav.md",
     "zuler/windows脚本.md",
-    "zuler/ubuntu.md",
-    "zuler/清理bcache.md",
-    "zuler/FIO工具使用.md",
-    "zuler/GO语言.md",
-    "zuler/lvm命令参数.md",
-    "zuler/rgw用户记录.md",
     "zuler/vdbench工具使用.md",
-    "OneNote/lyl的笔记本/CPP/C++ 11 新特性.md",
-    "欢迎.md",
-    "未命名.canvas",
+    "zuler/ubuntu.md",
+    "zuler/rgw用户记录.md",
+    "zuler/lvm命令参数.md",
+    "zuler/GO语言.md",
+    "zuler/FIO工具使用.md",
+    "zuler/清理bcache.md",
+    "zuler/服务器配置.md",
+    "zuler/本地docker镜像源.md",
+    "zuler/sftpgo文档记录/webdav/webdav抓包与代码分析.md",
+    "zuler/sftpgo文档记录/webdav/webdav协议.md",
+    "zuler/sftpgo文档记录/webdav/sftpgo函数io流程调用结构.md",
+    "zuler/sftpgo文档记录/webdav/IO流程.md",
+    "zuler/sftpgo文档记录/配置文件修改.md",
+    "zuler/sftpgo文档记录/远程监控.md",
+    "zuler/sftpgo文档记录/网页资料.md",
+    "zuler/sftpgo文档记录/webdav",
+    "zuler/sftpgo文档记录",
+    "zuler/Ceph",
+    "zuler",
     "PNG/Pasted image 20250331164657.png",
     "PNG/Pasted image 20250328174631.png",
     "PNG/Pasted image 20250325152318.png",
     "PNG/Pasted image 20250325152049.png",
     "PNG/Pasted image 20250325151902.png",
-    "PNG/Exported image 20250319160000-0.png",
-    "PNG/Exported image 20250319155950-2.png",
-    "PNG/Exported image 20250319155948-1.png",
-    "PNG/Exported image 20250319155946-0.png",
-    "PNG/Exported image 20250319155939-1.png",
+    "PNG/Pasted image 20250321161510.png",
+    "PNG/Pasted image 20250321161435.png",
+    "PNG/Pasted image 20250321161409.png",
+    "PNG/Pasted image 20250321161336.png",
+    "PNG/Pasted image 20250321155236.png",
     "PNG",
-    "未命名 1.canvas",
-    "OneNote/lyl的笔记本/项目",
-    "OneNote/lyl的笔记本/难题",
-    "OneNote/lyl的笔记本/软件",
-    "OneNote/lyl的笔记本/资料",
-    "OneNote/lyl的笔记本/网络",
-    "OneNote/lyl的笔记本/算法代码",
+    "OneNote/lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）",
+    "OneNote/lyl的笔记本/CPP/C++11/14/17",
+    "OneNote/lyl的笔记本/CPP/C++11/14",
     "OneNote/lyl的笔记本/操作系统/进程和线程",
-    "OneNote/lyl的笔记本/操作系统",
-    "OneNote/lyl的笔记本/基础/STL"
+    "OneNote/lyl的笔记本/基础/构造函数",
+    "未命名 1.canvas",
+    "未命名.canvas"
   ]
 }

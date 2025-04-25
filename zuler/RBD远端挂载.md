@@ -1,0 +1,1 @@
+rbd在远端访问image时需要client端能够访问该集群

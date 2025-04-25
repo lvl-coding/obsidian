@@ -20,8 +20,53 @@
               "icon": "lucide-file",
               "title": "C++ 14, C++ 17 新特性"
             }
+          },
+          {
+            "id": "80319e372831a81d",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "表格存储.md",
+                "bFile": "表格存储.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 表格存储"
+            }
+          },
+          {
+            "id": "0665b15eaeac0c5d",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "zuler/iscsi/ISCSI协议.md",
+                "bFile": "zuler/iscsi/ISCSI协议.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: ISCSI协议"
+            }
+          },
+          {
+            "id": "c19ab741db4b2dd1",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,12 +157,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "导入记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "导入记录 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -141,13 +185,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C++ 14, C++ 17 新特性 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -179,8 +222,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3eb8280553571e8c",
+  "active": "c19ab741db4b2dd1",
   "lastOpenFiles": [
+    "PNG/Pasted image 20250423105153.png",
+    "PNG/Pasted image 20250421174002.png",
+    "conflict-files-obsidian-git.md",
+    "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
+    "表格存储.md",
+    "zuler/sftpgo文档记录/webdav/windows webclient报错.md",
+    "zuler/iscsi/ISCSI协议.md",
+    "zuler/iscsi",
+    "zuler/TCP滑动窗口.md",
+    "zuler/RBD远端挂载.md",
+    "PNG/Pasted image 20250422150247.png",
     "lyl的笔记本/CPP/C++ 11 新特性.md",
     "lyl的笔记本/CPP/工厂模式及其实现.md",
     "lyl的笔记本/CPP/单例模式及其实现.md",
@@ -199,14 +253,6 @@
     "zuler/FIO工具使用.md",
     "zuler/清理bcache.md",
     "zuler/服务器配置.md",
-    "zuler/本地docker镜像源.md",
-    "zuler/sftpgo文档记录/webdav/webdav抓包与代码分析.md",
-    "zuler/sftpgo文档记录/webdav/webdav协议.md",
-    "zuler/sftpgo文档记录/webdav/sftpgo函数io流程调用结构.md",
-    "zuler/sftpgo文档记录/webdav/IO流程.md",
-    "zuler/sftpgo文档记录/配置文件修改.md",
-    "zuler/sftpgo文档记录/远程监控.md",
-    "zuler/sftpgo文档记录/网页资料.md",
     "zuler/sftpgo文档记录/webdav",
     "zuler/sftpgo文档记录",
     "zuler/Ceph",
@@ -218,15 +264,11 @@
     "PNG/Pasted image 20250325151902.png",
     "PNG/Pasted image 20250321161510.png",
     "PNG/Pasted image 20250321161435.png",
-    "PNG/Pasted image 20250321161409.png",
-    "PNG/Pasted image 20250321161336.png",
-    "PNG/Pasted image 20250321155236.png",
     "PNG",
     "OneNote/lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）",
     "OneNote/lyl的笔记本/CPP/C++11/14/17",
     "OneNote/lyl的笔记本/CPP/C++11/14",
     "OneNote/lyl的笔记本/操作系统/进程和线程",
-    "OneNote/lyl的笔记本/基础/构造函数",
     "未命名 1.canvas",
     "未命名.canvas"
   ]

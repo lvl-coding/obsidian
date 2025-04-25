@@ -11,14 +11,14 @@
             "id": "eeab7919cf02a093",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "lyl的笔记本/表格存储.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "表格存储"
             }
           }
         ]
@@ -177,15 +177,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eeab7919cf02a093",
+  "active": "804728edc424f500",
   "lastOpenFiles": [
+    "待办清单.md",
+    "README.md",
     "conflict-files-obsidian-git.md",
     "lyl的笔记本/CPP/C++ 11 新特性.md",
     "lyl的笔记本/CPP/C++ 14, C++ 17 新特性.md",
     "lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）/C++11141720 特性介绍（转载）.md",
-    "README.md",
-    "待办清单.md",
-    "表格存储.md",
+    "lyl的笔记本/表格存储.md",
     "PNG/Pasted image 20250423105153.png",
     "PNG/Pasted image 20250421174002.png",
     "zuler/sftpgo文档记录/webdav/windows webclient报错.md",

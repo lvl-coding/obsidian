@@ -78,6 +78,20 @@
             }
           },
           {
+            "id": "aefa51bba37f50e0",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "1e0c954e2c120285",
             "type": "leaf",
             "state": {
@@ -106,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -263,39 +277,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1641b876ef5acd9",
+  "active": "aefa51bba37f50e0",
   "lastOpenFiles": [
-    "zuler/本地docker镜像源.md",
-    "zuler/FIO工具使用.md",
-    "zuler/sftpgo文档记录/sftpgo docker.md",
-    "zuler/sftpgo文档记录/sftpgo虚拟机部署.md",
-    "zuler/sftpgo文档记录/WebDAV.md",
-    "zuler/sftpgo文档记录/webdav/webdav抓包与代码分析.md",
-    "zuler/windows脚本.md",
-    "zuler/RBD远端挂载.md",
-    "表格存储.md",
-    "待办清单.md",
-    "README.md",
-    "zuler/iscsi/ISCSI协议.md",
-    "zuler/sftpgo文档记录/webdav/windows webclient报错.md",
-    "zuler/TCP滑动窗口.md",
-    "zuler/Ceph/RBD",
+    "conflict-files-obsidian-git.md",
+    "zuler/服务器配置.md",
+    "lyl的笔记本/项目/消息订阅.md",
+    "lyl的笔记本/项目/海量小文件问题综述.md",
+    "lyl的笔记本/项目/浅析开源项目之Ceph.md",
+    "lyl的笔记本/项目/棘手的bug.md",
+    "lyl的笔记本/项目/一文读懂CEPH RGW基本原理.md",
+    "lyl的笔记本/项目/Untitled-20250319160358.md",
+    "lyl的笔记本/项目/RocksDB零基础学习(一) What's RocksDB.md",
+    "lyl的笔记本/项目/perf学习总结.md",
+    "lyl的笔记本/项目/RGW用户认证.md",
+    "lyl的笔记本/项目/Ceph 数据IO全栈流程-源码分析 httpsblog.51cto.comwendashuai2497104.md",
+    "lyl的笔记本/项目/Ceph源码解析：CRUSH算法.md",
+    "lyl的笔记本/项目/Ceph RGW整体结构，最全干货在这！.md",
+    "lyl的笔记本/项目",
+    "lyl的笔记本/难题/遗留问题.md",
+    "lyl的笔记本/难题/疑难题.md",
+    "lyl的笔记本/难题/深入理解基于Linux文件系统原理与实现.md",
+    "lyl的笔记本/难题/深入理解 Linux的 IO 系统.md",
+    "lyl的笔记本/难题/协程注意问题.md",
+    "lyl的笔记本/难题/操作系统：七种进程调度算法.md",
+    "lyl的笔记本/难题/分布式存储面试的一点经验.md",
+    "lyl的笔记本/难题/分布式存储ceph：可靠性设计.md",
+    "lyl的笔记本/难题/协程库.md",
+    "lyl的笔记本/难题/String类构造函数.md",
+    "lyl的笔记本/难题/分布式存储面试.md",
+    "lyl的笔记本/难题/内存屏障.md",
+    "lyl的笔记本/难题",
+    "lyl的笔记本/软件",
+    "lyl的笔记本/资料",
+    "lyl的笔记本/网络",
+    "lyl的笔记本/算法代码",
+    "lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）",
+    "lyl的笔记本/CPP/C++11/14/17",
+    "lyl的笔记本/CPP/C++11/14",
+    "lyl的笔记本/基础/构造函数",
     "PNG/Pasted image 20250423105153.png",
     "PNG/Pasted image 20250422150247.png",
-    "zuler/iscsi",
     "PNG/Pasted image 20250421174002.png",
-    "zuler/vdbench工具使用.md",
-    "zuler/ubuntu.md",
-    "zuler/lvm命令参数.md",
-    "zuler/GO语言.md",
-    "OneNote/lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
-    "zuler/Ceph/BlueStore.md",
-    "zuler/服务器配置.md",
-    "zuler/Ceph/ceph命令.md",
-    "zuler/sftpgo文档记录/webdav/webdav协议.md",
-    "zuler/sftpgo文档记录/网页资料.md",
-    "zuler/sftpgo文档记录/远程监控.md",
-    "zuler/sftpgo文档记录/支持项.md",
     "未命名.canvas",
     "PNG/Pasted image 20250331164657.png",
     "PNG/Pasted image 20250328174631.png",
@@ -304,14 +326,6 @@
     "PNG/Pasted image 20250325151902.png",
     "PNG/Exported image 20250319160000-0.png",
     "PNG/Exported image 20250319155950-2.png",
-    "PNG",
-    "未命名 1.canvas",
-    "OneNote/lyl的笔记本/项目",
-    "OneNote/lyl的笔记本/难题",
-    "OneNote/lyl的笔记本/软件",
-    "OneNote/lyl的笔记本/资料",
-    "OneNote/lyl的笔记本/网络",
-    "OneNote/lyl的笔记本/算法代码",
-    "OneNote/lyl的笔记本/操作系统/进程和线程"
+    "未命名 1.canvas"
   ]
 }

@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d9dba9fb9cfc2fd5",
+        "id": "dc22b860940942a8",
         "type": "tabs",
         "children": [
           {
-            "id": "06ce93a7e611a16e",
+            "id": "eeab7919cf02a093",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -178,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06ce93a7e611a16e",
+  "active": "eeab7919cf02a093",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "lyl的笔记本/CPP/C++ 11 新特性.md",

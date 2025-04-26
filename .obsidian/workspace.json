@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dc22b860940942a8",
+        "id": "4d33e38a19d9fce4",
         "type": "tabs",
         "children": [
           {
-            "id": "eeab7919cf02a093",
+            "id": "6ddb5f57afd2982b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人技术栈.md",
+                "file": "lyl的笔记本/基础/左值与右值.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "个人技术栈"
-            }
-          },
-          {
-            "id": "b93ff133c4f86a0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lyl的笔记本/ceph/PG状态机.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG状态机"
+              "title": "左值与右值"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,11 +177,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b93ff133c4f86a0a",
+  "active": "804728edc424f500",
   "lastOpenFiles": [
+    "lyl的笔记本/基础/左值与右值/万能引用与完美转发.md",
+    "lyl的笔记本/基础/左值与右值.md",
+    "lyl的笔记本/基础/左值与右值/stdmove与stdforward.md",
+    "lyl的笔记本/基础/【面试篇】- 线程和协程的区别是什么？.md",
+    "lyl的笔记本/基础/new和malloc的区别.md",
+    "lyl的笔记本/基础/锁的区别.md",
+    "lyl的笔记本/基础/待学习智能指针/shared_ptr.md",
+    "lyl的笔记本/基础/待学习智能指针/待学习智能指针.md",
+    "lyl的笔记本/ceph/PG状态机.md",
     "PNG/Pasted image 20250426140745.png",
     "zuler/Ceph/集群pg状态.md",
-    "lyl的笔记本/ceph/PG状态机.md",
     "PNG/pg状态机.png",
     "PNG/Pasted image 20250426140453.png",
     "PNG/Pasted image 20250426140039.png",
@@ -221,20 +214,12 @@
     "zuler/RBD远端挂载.md",
     "PNG/Pasted image 20250422150247.png",
     "lyl的笔记本/CPP/工厂模式及其实现.md",
-    "lyl的笔记本/CPP/单例模式及其实现.md",
-    "lyl的笔记本/CPP/常见设计模式.md",
-    "OneNote/lyl的笔记本/CPP/运算符优先级.md",
-    "lyl的笔记本/CPP/运算符优先级.md",
-    "lyl的笔记本/CPP/优先级队列.md",
-    "zuler/windows脚本.md",
-    "zuler/vdbench工具使用.md",
     "zuler/sftpgo文档记录/webdav",
     "zuler/sftpgo文档记录",
     "zuler/Ceph",
     "zuler",
     "PNG/Pasted image 20250331164657.png",
     "PNG/Pasted image 20250328174631.png",
-    "PNG/Pasted image 20250325152318.png",
     "PNG",
     "OneNote/lyl的笔记本/CPP/C++11/14/17/20 特性介绍（转载）",
     "OneNote/lyl的笔记本/CPP/C++11/14/17",

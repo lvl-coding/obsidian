@@ -4,5 +4,6 @@
   "readableLineLength": true,
   "newFileLocation": "root",
   "newFileFolderPath": "PNG",
-  "attachmentFolderPath": "PNG"
+  "attachmentFolderPath": "PNG",
+  "alwaysUpdateLinks": true
 }

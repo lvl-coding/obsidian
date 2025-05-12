@@ -26,3 +26,4 @@ HEAD获取属性
 
 GET获取后端文件列表  
 大文件采取分段上传，POST获取upload id，后续put进行uploadpart，分段大小默认5M
+

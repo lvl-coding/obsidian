@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/Ceph/Ceph 运维手册.md",
+                "file": "zuler/ubuntu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ceph 运维手册"
+              "title": "ubuntu"
             }
           },
           {
@@ -180,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exclude",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,7 +201,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -305,10 +306,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "804728edc424f500",
+  "active": "d66823f357e02e83",
   "lastOpenFiles": [
-    "zuler/Ceph/创建OSD服务.md",
+    "zuler/sftpgo文档记录/webdav/webdav协议.md",
+    "待办清单.md",
+    "zuler/windows脚本.md",
+    "zuler/sftpgo文档记录/webdav/IO流程.md",
+    "zuler/sftpgo文档记录/webdav/Http协议.md",
+    "zuler/GO语言.md",
     "zuler/Ceph/Ceph 运维手册.md",
+    "zuler/Ceph/创建OSD服务.md",
     "zuler/Ceph/集群pg状态.md",
     "zuler/Ceph/碎片化整理.md",
     "zuler/Ceph/bluefs扩容操作.md",
@@ -323,16 +330,10 @@
     "zuler/Ceph/OSD启动流程网页资料.md",
     "zuler/Ceph/OSD中对Recovery速率限制参数.md",
     "zuler/Ceph/PG数目计算.md",
-    "待办清单.md",
     "zuler/sftpgo文档记录/webdav锁.md",
-    "zuler/sftpgo文档记录/webdav/Http协议.md",
     "zuler/sftpgo文档记录/webdav/sftpgo函数io流程调用结构.md",
     "zuler/iscsi/ISCSI协议.md",
-    "zuler/sftpgo文档记录/webdav/webdav协议.md",
     "zuler/sftpgo文档记录/webdav/webdav抓包与代码分析.md",
-    "zuler/sftpgo文档记录/webdav/IO流程.md",
-    "zuler/sftpgo文档记录/WebDAV.md",
-    "zuler/服务器配置.md",
     "lyl的笔记本/基础/CPP/C++11/14/17/20 特性介绍（转载）",
     "lyl的笔记本/基础/CPP/C++11/14/17",
     "lyl的笔记本/基础/CPP/C++11/14",

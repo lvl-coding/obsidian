@@ -27,12 +27,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待办清单.md",
+                "file": "zuler/Ceph/OSD/创建OSD服务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待办清单"
+              "title": "创建OSD服务"
+            }
+          },
+          {
+            "id": "f734e9cc1040e6d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/OSD/OSD服务.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSD服务"
+            }
+          },
+          {
+            "id": "561f5ddfbd1a5320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/OSD/OSD启动流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSD启动流程"
             }
           },
           {
@@ -49,7 +77,8 @@
               "title": "集群pg状态"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,34 +235,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef572fcf7c34f020",
+  "active": "804728edc424f500",
   "lastOpenFiles": [
+    "zuler/Ceph/OSD/创建OSD服务.md",
+    "zuler/Ceph/OSD/OSD服务.md",
+    "zuler/Ceph/OSD/ceph-volume.md",
+    "zuler/Ceph/OSD/OSD启动流程.md",
+    "zuler/Ceph/BlueStore.md",
+    "PNG/Pasted image 20250515161242.png",
+    "zuler/Ceph/ceph配置文件.md",
+    "zuler/Ceph/OSD",
+    "zuler/Ceph/Cls模块.md",
+    "zuler/Ceph/OSD中对Recovery速率限制参数.md",
+    "zuler/Ceph/PG数目计算.md",
+    "待办清单.md",
+    "zuler/Ceph/ceph 告警规则.md",
+    "zuler/Ceph/bluefs扩容操作.md",
+    "zuler/Ceph/碎片化整理.md",
+    "zuler/Ceph/集群pg状态.md",
+    "PNG/Pasted image 20250514161429.png",
+    "PNG/Pasted image 20250514154800.png",
+    "PNG/Pasted image 20250514154517.png",
+    "PNG/filestore-vs-bluestore-2.png.webp",
+    "OSD启动流程网页资料.md",
+    "zuler/Ceph/OSD启动流程网页资料.md",
+    "zuler/Ceph/ceph-volume.md",
+    "zuler/Ceph/ceph命令.md",
     "zuler/Ceph/RBD/RBD QOS.md",
     "zuler/Ceph/PG综述.md",
-    "待办清单.md",
-    "zuler/Ceph/集群pg状态.md",
-    "zuler/Ceph/bluefs扩容操作.md",
     "zuler/服务器配置.md",
     "zuler/sftpgo文档记录/webdav/Http协议.md",
-    "zuler/Ceph/ceph命令.md",
-    "zuler/Ceph/创建OSD服务.md",
-    "zuler/Ceph/碎片化整理.md",
     "lyl的笔记本/ceph/rgw/rgw代码记录.md",
     "lyl的笔记本/ceph/rgw/OBJECT_RM.md",
     "lyl的笔记本/ceph/rgw/init_bucket.md",
     "README.md",
-    "zuler/FIO工具使用.md",
-    "zuler/ubuntu.md",
-    "zuler/sftpgo文档记录/webdav/webdav协议.md",
-    "zuler/windows脚本.md",
-    "zuler/sftpgo文档记录/webdav/IO流程.md",
-    "zuler/GO语言.md",
-    "zuler/Ceph/Ceph 运维手册.md",
-    "zuler/Ceph/BlueStore.md",
-    "zuler/Ceph/ceph 告警规则.md",
-    "zuler/Ceph/ceph-volume.md",
-    "zuler/Ceph/ceph配置文件.md",
-    "zuler/Ceph/cephadm部署.md",
     "lyl的笔记本/基础/CPP/C++11/14/17/20 特性介绍（转载）",
     "lyl的笔记本/基础/CPP/C++11/14/17",
     "lyl的笔记本/基础/CPP/C++11/14",
@@ -248,13 +283,7 @@
     "PNG/Pasted image 20250426140017.png",
     "lyl的笔记本/项目",
     "lyl的笔记本/难题",
-    "lyl的笔记本/软件",
-    "PNG/Pasted image 20250423105153.png",
-    "PNG/Pasted image 20250422150247.png",
-    "PNG/Pasted image 20250421174002.png",
     "未命名.canvas",
-    "PNG/Pasted image 20250331164657.png",
-    "PNG/Pasted image 20250328174631.png",
     "未命名 1.canvas"
   ]
 }

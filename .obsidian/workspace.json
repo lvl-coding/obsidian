@@ -67,17 +67,14 @@
             "id": "798ef225a63b7adb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "zuler/iscsi/iscsi配置.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "iscsi配置"
             }
           }
         ],
@@ -172,12 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
+                "file": "zuler/iscsi/iscsi配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "iscsi配置 的出链列表"
             }
           },
           {
@@ -201,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "zuler/iscsi/iscsi配置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "iscsi配置 的大纲"
             }
           },
           {
@@ -239,9 +236,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc60f505da8a0d40",
+  "active": "798ef225a63b7adb",
   "lastOpenFiles": [
-    "().md",
+    "zuler/iscsi/ISCSI协议.md",
+    "未命名.canvas",
+    "zuler/iscsi/iscsi配置.md",
     "zuler/sftpgo文档记录/服务模型.md",
     "zuler/sftpgo文档记录/zuler fs onepage.md",
     "PNG/Pasted image 20250521170002.png",
@@ -276,8 +275,6 @@
     "zuler/Ceph/OSD/ceph-volume.md",
     "zuler/Ceph/OSD/OSD服务.md",
     "zuler/Ceph/OSD/OSD启动流程.md",
-    "zuler/Ceph/OSD/创建OSD服务.md",
-    "未命名.canvas",
     "zuler/Ceph/OSD",
     "lyl的笔记本/基础/CPP/C++11/14/17/20 特性介绍（转载）",
     "lyl的笔记本/基础/CPP/C++11/14/17",

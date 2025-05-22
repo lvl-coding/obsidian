@@ -1,32 +1,23 @@
 HTTP服务框架 net/http
  
-- Initialize
-    
+- Initialize    
     - mimeTypeCache
     - webDAVUsersCache
     - exitChannel
-    - Bindings
-        
+    - Bindings        
         - listenAndServe
-        - HTTPListenAndServe
-            
-            - ServeHTTP
-                
-                - GetFilesystemForPath
-                    
-                    - GetFilesystem
-                        
+        - HTTPListenAndServe            
+            - ServeHTTP                
+                - GetFilesystemForPath                    
+                    - GetFilesystem                        
                         - NewS3Fs
             - LimitRate
-   
-
 - ServeHTTP
 - LimitRate
 - authenticate
 - NewBaseConnection
 - updateLoginMetrics
-- Handler
-    
+- Handler    
     - handleOptions
     - handleGetHeadPost
     - handleDelete
@@ -36,35 +27,27 @@ HTTP服务框架 net/http
     - handleLock
     - handleUnlock
     - handlePropfind
-    - handleProppatch
-   
-
-- handlePut
-    
+    - handleProppatch 
+- handlePut    
     - stripPrefix
     - confirmLocks
-    - f = OpenFile
-        
+    - f = OpenFile        
         - UpdateLastActivity
         - GetFsAndResolvedPath获取后端文件系统
         - getFile// Download, Stat, Readdir or simply open/close
-        - putFile(vfs.Fs...
-            
+        - putFile(vfs.Fs...            
             - fs.Lstat
-            - handleUploadToNewFile
-                
+            - handleUploadToNewFile                
                 - HasSpace
                 - ExecutePreAction
                 - fs.Create
                 - SetPathPermissions
                 - NewBaseTransfer
                 - newWebDavFile
-            - handleUploadToExistingFile
-                
+            - handleUploadToExistingFile                
                 - HasSpace
                 - ExecutePreAction
-                - AtomicUpload
-                    
+                - AtomicUpload                    
                     - fs.Rename
                 - fs.Create
                 - GetMaxWriteSize
@@ -74,19 +57,13 @@ HTTP服务框架 net/http
     - Stat
     - Close
  
-- handleGetHeadPost
-    
-    - f = OpenFile
-        
-        - getFile
-            
+- handleGetHeadPost    
+    - f = OpenFile        
+        - getFile            
             - newWebDavFile
-    - ServeContent
-        
-        - CopyN
-            
-            - Read
-                
+    - ServeContent        
+        - CopyN            
+            - Read                
                 - Fs.Open
    
 

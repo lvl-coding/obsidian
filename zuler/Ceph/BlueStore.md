@@ -3,6 +3,11 @@ https://www.cnblogs.com/hukey/p/11910741.html
 https://blog.csdn.net/easonwx/article/details/125949915
 https://blog.csdn.net/DeamonXiao/article/details/120866790
 [Bluestore下的OSD开机自启动分析](https://cloud.tencent.com/developer/article/1171493)
+[Ceph BlueStore：BlueFS架构介绍 +元数据详解](https://blog.csdn.net/easonwx/article/details/125949915?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165881939916782391839369%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=165881939916782391839369&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-125949915-null-null.142%5Ev34%5Epc_search_result_control_group,185%5Ev2%5Econtrol&utm_term=bluefs%20%E6%9E%B6%E6%9E%84&spm=1018.2226.3001.4187)
+[Ceph之OSD笔记2：OSD的初始化启动流程](https://zhuanlan.zhihu.com/p/643935828)
+[Bluestore代码分析](https://emperorlu.github.io/files/Bluestore%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90.pdf)
+[Ceph BlueStore BlueFS](https://blog.wjin.org/posts/ceph-bluestore-bluefs.html)
+
 # 优势
 - 对于大型写入操作，避免了原来FileStore的两次写入
 - 对于小型写入，BlueStore比FileStore with journal性能还要好

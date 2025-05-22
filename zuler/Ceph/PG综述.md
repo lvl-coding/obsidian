@@ -37,6 +37,7 @@
 		2. RepWaitRecoveryReserved
 		3. RepWaitBackfillReserved
 # 状态迁移
+[ceph存储 PG的状态机 源码分析](https://vigourtyy-zhg.blog.csdn.net/article/details/104309646)
 ## 创建pg
 1. Epoch检查，保证OSDMap同步
 2. 单个OP创建多个PG

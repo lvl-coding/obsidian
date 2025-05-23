@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/iscsi/iscsi配置.md",
+                "file": "zuler/iscsi/gluster fs配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iscsi配置"
+              "title": "gluster fs配置"
             }
           }
         ],
@@ -250,11 +250,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc60f505da8a0d40",
+  "active": "6d90387204fa040c",
   "lastOpenFiles": [
+    "zuler/服务器配置.md",
     "zuler/iscsi/gluster fs配置.md",
-    "zuler/iscsi/ISCSI协议.md",
     "zuler/iscsi/iscsi配置.md",
+    "zuler/iscsi/ISCSI协议.md",
     "未命名.canvas",
     "zuler/sftpgo文档记录/服务模型.md",
     "zuler/sftpgo文档记录/zuler fs onepage.md",
@@ -288,7 +289,6 @@
     "zuler/sftpgo文档记录/webdav/webdav协议.md",
     "zuler/本地docker镜像源.md",
     "zuler/Ceph/OSD/ceph-volume.md",
-    "zuler/Ceph/OSD/OSD服务.md",
     "zuler/Ceph/OSD",
     "lyl的笔记本/基础/CPP/C++11/14/17/20 特性介绍（转载）",
     "lyl的笔记本/基础/CPP/C++11/14/17",

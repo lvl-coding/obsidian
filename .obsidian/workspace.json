@@ -155,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "待办清单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "待办清单 的大纲"
             }
           },
           {
@@ -174,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fe26fedaa9d525b",
+  "active": "ed1078bb0a769e60",
   "lastOpenFiles": [
     "lyl的笔记本/基础/待学习智能指针.md",
     "PNG/Pasted image 20250514154517.png",

@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/iscsi/iscsi配置.md",
+                "file": "zuler/iscsi/gluster fs配置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "iscsi配置 的大纲"
+              "title": "gluster fs配置 的大纲"
             }
           },
           {
@@ -250,7 +250,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d90387204fa040c",
+  "active": "dc60f505da8a0d40",
   "lastOpenFiles": [
     "zuler/服务器配置.md",
     "zuler/iscsi/gluster fs配置.md",

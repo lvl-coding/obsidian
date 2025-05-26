@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/iscsi/gluster fs配置.md",
+                "file": "zuler/iscsi/深信服虚拟机配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gluster fs配置"
+              "title": "深信服虚拟机配置"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zuler/iscsi/gluster fs配置.md",
+                "file": "zuler/iscsi/深信服虚拟机配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "gluster fs配置 的反向链接列表"
+              "title": "深信服虚拟机配置 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zuler/iscsi/gluster fs配置.md",
+                "file": "zuler/iscsi/深信服虚拟机配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "gluster fs配置 的出链列表"
+              "title": "深信服虚拟机配置 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/iscsi/gluster fs配置.md",
+                "file": "zuler/iscsi/深信服虚拟机配置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "gluster fs配置 的大纲"
+              "title": "深信服虚拟机配置 的大纲"
             }
           },
           {
@@ -180,9 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7bc6ff22a0a0f5f",
+  "active": "585a91bb184ba562",
   "lastOpenFiles": [
-    "zuler/iscsi/ISCSI协议.md",
-    "zuler/服务器配置.md"
+    "zuler/服务器配置.md",
+    "zuler/iscsi/深信服虚拟机配置.md",
+    "zuler/iscsi/ISCSI协议.md"
   ]
 }

@@ -55,6 +55,7 @@ rados_connection_retries = 3
 rbd_cluster_name = ceph  
 replication_connect_timeout = 5
 
+
 [libvirt]
 ...
 rbd_user = cinder
@@ -75,24 +76,29 @@ rbd_secret_uuid = 457eb676-33da-42ec-9a8c-9293d545c337
 
 ![[Pasted image 20250529161833.png]]
 ### cinder对RBD接口
-![../../_images/51dd72cbc0174196f75f96e252d70d62bfe28ed6392c31d85e5a4975a0f4c564.png](https://docs.ceph.com/en/mimic/_images/51dd72cbc0174196f75f96e252d70d62bfe28ed6392c31d85e5a4975a0f4c564.png)
+![[Pasted image 20250530150501.png]]
 #### `cinder.volume.drivers.rbd.RBDDriver`
-- RBDVolumeProxy
-- RADOSClient
-- RBDDriver
-	- get_driver_options
-	- do_setup
-	- `_connect_to_rados`
+import了ceph的librados库ceph/src/pybind/rados/rados.pyx
+- RBDVolumeProxy 管理RBD卷的上下文管理器。其主要目的是简化 RBD 卷的连接、打开、关闭等生命周期管理
+- RADOSClient 管理 Ceph RADOS 连接的上下文管理器。简化 Ceph 集群连接和断开的流程，并自动处理相关资源的释放
+- RBDDriver 从driver.BaseVD中继承基本方法
+	- get_driver_options 获取基本参数
+	- do_setup 创建复制配置，获取目标端及相关参数
+	- check_for_setup_error预先检查，检查完成后启动后台任务
+		- `_trash_purge` 后台循环执行trash清理，默认60s
+	- RBDProxy 线程包装RBD
+	- `_connect_to_rados`失败后重试，间隔5s，次数3次
 		- Rados.connect()
-	- `_disconnect_from_rados`
-		- ioctx.close()
-		- client.shutdown()
-	- `_get_usage_info`
-	- `_get_pool_stats`
-		- ceph df
+	- `_disconnect_from_rados` 关闭上下文，关闭rados连接
+	- `_get_backup_snaps` 获取后段ceph集群中的卷快照
+	- `_get_mon_addrs` ceph mon dump获取mon服务信息
 	- `_update_volume_stats`
+		- `_get_fsid`
+		- `_get_pool_stats` ceph df获取存储池使用情况
+		- `_get_usage_info` RBD size()获取卷空间使用情况
 	- create_cloned_volume
 		- `_get_clone_depth`
+			- `_get_clone_info`
 		- RBDProxy().clone
 	- create_volume
 		- `_create_encrypted_volume`

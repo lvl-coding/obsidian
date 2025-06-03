@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/Ceph/RBD/openstack & ceph.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "mode": "source",
                 "source": false
               },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zuler/Ceph/RBD/openstack & ceph.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zuler/Ceph/RBD/openstack & ceph.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/Ceph/RBD/openstack & ceph.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,16 +223,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "585a91bb184ba562",
+  "active": "4f0b4df335ff2971",
   "lastOpenFiles": [
-    "zuler/Ceph/RBD/RBD IO.md",
-    "zuler/Ceph/RBD/RBD QOS.md",
-    "zuler/Ceph/RBD/openstack & ceph.md",
-    "PNG/Pasted image 20250527121211.png",
-    "zuler/openstack/openstack结构.md",
-    "zuler/openstack/openstack基础命令.md",
+    "PNG/Pasted image 20250530150501.png",
     "zuler/iscsi/iscsi配置.md",
     "zuler/iscsi/ISCSI协议.md",
+    "zuler/iscsi/深信服虚拟机配置.md",
+    "zuler/openstack/openstack基础命令.md",
+    "zuler/openstack/openstack结构.md",
+    "待办清单.md",
+    "未命名.canvas",
+    "zuler/openstack/openstack & ceph.md",
+    "zuler/Ceph/RBD/RBD IO.md",
+    "zuler/Ceph/RBD/RBD QOS.md",
+    "PNG/Pasted image 20250527121211.png",
     "PNG/Pasted image 20250529162717.png",
     "PNG/Pasted image 20250529162609.png",
     "PNG/Pasted image 20250529162016.png",
@@ -245,8 +249,6 @@
     "README.md",
     "zuler/Ceph/OSD/OSD启动流程网页资料.md",
     "zuler/本地docker镜像源.md",
-    "未命名.canvas",
-    "zuler/iscsi/深信服虚拟机配置.md",
     "zuler/服务器配置.md",
     "zuler/openstack",
     "zuler/清理bcache.md",

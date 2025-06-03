@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/Ceph/RBD/RBD mirror.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RBD mirror"
+              "title": "openstack & ceph"
             }
           }
         ],
@@ -84,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zuler/Ceph/RBD/RBD mirror.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "RBD mirror 的反向链接列表"
+              "title": "openstack & ceph 的反向链接列表"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zuler/Ceph/RBD/RBD mirror.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "RBD mirror 的出链列表"
+              "title": "openstack & ceph 的出链列表"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/Ceph/RBD/RBD mirror.md",
+                "file": "zuler/openstack/openstack & ceph.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RBD mirror 的大纲"
+              "title": "openstack & ceph 的大纲"
             }
           },
           {
@@ -223,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f0b4df335ff2971",
+  "active": "35d30b96c9d2af0a",
   "lastOpenFiles": [
-    "zuler/Ceph/RBD/RBD IO.md",
     "zuler/Ceph/RBD/RBD mirror.md",
+    "zuler/Ceph/RBD/RBD IO.md",
     "zuler/Ceph/RBD/RBD QOS.md",
     "zuler/openstack/openstack & ceph.md",
     "PNG/Pasted image 20250530150501.png",

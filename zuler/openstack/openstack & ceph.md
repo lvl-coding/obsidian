@@ -97,13 +97,24 @@ import了ceph的librados库ceph/src/pybind/rados/rados.pyx
 		- `_get_pool_stats` ceph df获取存储池使用情况
 		- `_get_usage_info` RBD size()获取卷空间使用情况
 	- create_cloned_volume
-		- `_get_clone_depth`
-			- `_get_clone_info`
-		- RBDProxy().clone
+		- `_extend_if_required` 扩展卷的容量
+		- RBDProxy().clone()
+		- `_get_clone_depth`递归获取克隆深度
+			- `_get_clone_info`判断卷是否为克隆卷，是则返回其父卷和快照的信息
+			- `_get_clone_depth`
+		- `_setup_volume` 根据当前卷状态的需要，动态配置卷的复制和多挂载这两种互斥特性
+		- `_extend_if_required`
+	- `_enable_replication` 开启卷复制功能
+	- `_is_replicated_type`
+	- `_enable_multiattach` 开启卷多挂载功能
+	- `_disable_multiattach`
+	- `_is_multiattach_type`
 	- create_volume
-		- `_create_encrypted_volume`
+		- `_create_encrypted_volume` 创建加密卷
 		- RBDProxy().create
 		- `_setup_volume`
+		- RBDProxy().remove 抛出异常则删除创建的资源
+	- `_flatten` 将所有数据块从父镜像复制到当前子镜像，使其不再依赖父镜像。这样做可以提升独立性，但会占用更多存储空间。
 	- create_volume_from_snapshot
 	- `_delete_backup_snaps`
 	- delete_volume

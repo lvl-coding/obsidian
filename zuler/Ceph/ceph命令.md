@@ -7,10 +7,11 @@ $ ceph osd pool create <poolname> pg_num pgp_num {replicated|erasure} <rule_name
 | `cephadm` | `sudo cephadm shell -- <后续指令>`                                                                           | cephadm宿主机上执行集群内指令 |     |
 |           | `ceph --version`                                                                                         | 查看版本               |     |
 |           | `ceph orch host ls`                                                                                      | 查看集群节点             |     |
-| osd       | `ceph osd ls pools`                                                                                      | 查看集群所有池            |     |
+| osd       | `ceph osd lspools`                                                                                       | 查看集群所有池            |     |
 |           | `ceph osd pool stats`                                                                                    |                    |     |
 |           | `ceph osd pool create <poolname> pg_num pgp_num {replicated\|erasure} --autoscale_mode=off`              |                    |     |
 |           | `ceph osd pool get ceph-demo size`                                                                       |                    |     |
+|           | `ceph osd pool get ceph-demo crush_rule`                                                                 |                    |     |
 |           | `ceph osd pool delete default.rgw.log default.rgw.log --yes-i-really-really-mean-it`                     |                    |     |
 |           | `ceph tell mon.\* injectargs '--mon-allow-pool-delete=true'`                                             | 修改mon参数            |     |
 |           | `ceph mgr services`                                                                                      |                    |     |

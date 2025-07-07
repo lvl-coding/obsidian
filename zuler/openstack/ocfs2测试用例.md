@@ -7,7 +7,7 @@
 $ mount | grep sdc
 /dev/sdc on /var/opt/mnt/ocfs2/192.168.10.91_sda type ocfs2 (rw,relatime,_netdev,heartbeat=local,nointr,data=ordered,errors=remount-ro,atime_quantum=60,coherency=full,user_xattr,acl)
 ```
-- cinder-volume创建卷时无法分配至新增挂载点
+- cinder-volume创建卷时无法分配至新增挂载点，需重启cinder-volume服务
 ```
 2025-06-25 16:38:14.396 70 WARNING cinder.volume.drivers.ocfs2 [req-ae391712-442b-4bf9-b885-f29c706b643a 5273db44a9cf42bbb456cb1d0709251a 5be4d7808b7b45cea69010428c166a48 - - -] OCFS2 share /var/lib/cinder/ocfs2/192.168.10.91_sda is not mounted.
 2025-06-25 16:38:15.126 70 INFO cinder.volume.drivers.remotefs [req-ae391712-442b-4bf9-b885-f29c706b643a 5273db44a9cf42bbb456cb1d0709251a 5be4d7808b7b45cea69010428c166a48 - - -] casted to /var/lib/cinder/ocfs2/192.168.10.89_sda

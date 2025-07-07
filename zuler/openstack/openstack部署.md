@@ -39,8 +39,17 @@ BASE_NON_DEPLOY=cluster90,cluster91
 安装ansible 虚拟环境及生成 inventory
 ## 服务部署
 多节点部署时脚本在其他节点时的部署节点名会识别失败，需手动将节点名修改为ip
-```
-
+```bash
+_setup_apt() {
+	if [ -e /etc/apt/sources.list ];then
+		mv /etc/apt/sources.list /etc/apt/sources."$(date +%Y-%m-%d_%H-%M-%S)"
+	fi
+	cat <<EOF > /etc/apt/sources.list.d/debian-packages.list
+	deb http://<DEPLOY-ip>:7776/ focal main
+EOF
+	apt-key add ./public.key
+	apt-get update
+}
 ```
 # 存储服务
 修改ceph下磁盘类型和OSD设备列表

@@ -38,3 +38,6 @@ e.g.
 .\fio.exe -bs=4k -ioengine=windowsaio -iodepth=32 -numjobs=1 -direct=1 -rw=randwrite -thread -time_based -runtime=120 -refill_buffers -norandommap -randrepeat=0 -group_reporting -name=fio-randwrite-iops -size=10G -filename="D\:\targetfile"  
 **测试硬盘的随机混合读写IOPS**  
 .\fio.exe -bs=4k -ioengine=windowsaio -iodepth=32 -numjobs=1 -direct=1 -rw=randrw -thread -time_based -runtime=120 -refill_buffers -norandommap -randrepeat=0 -group_reporting -name=fio-randrw-iops -size=10G -filename="D\:\targetfile"
+```bash
+fio -bs=4k -ioengine=windowsaio -iodepth=1 -numjobs=1 -direct=1 -rw=randwrite -thread -time_based -runtime=120 -refill_buffers -norandommap -randrepeat=0 -group_reporting -name=drw -nrfiles=1000 -filesize=128k -directory="Z\:targetdir"
+```

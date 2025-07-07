@@ -8,83 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7bc6ff22a0a0f5f",
+            "id": "95d3e2bbd033bd32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/服务器配置.md",
+                "file": "zuler/openstack/ocfs2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "服务器配置"
+              "title": "ocfs2"
             }
           },
           {
-            "id": "eff4bd0ca822b0ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/openstack基础命令.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "openstack基础命令"
-            }
-          },
-          {
-            "id": "ec8a6a9b1d6a63f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/openstack结构.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "openstack结构"
-            }
-          },
-          {
-            "id": "1e36e0d930c576d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/openstack结构.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "openstack结构"
-            }
-          },
-          {
-            "id": "fb9e0627e54161b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/libvirt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "libvirt"
-            }
-          },
-          {
-            "id": "524d4ad7eea1c69f",
+            "id": "a776447cdbcf597d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "zuler/ubuntu.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -92,31 +36,59 @@
             }
           },
           {
-            "id": "82cfe202048d0a86",
+            "id": "fa1b89c6f19f92c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/openstack/openstack替换镜像.md",
+                "file": "通过ipvs创建双向代理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openstack替换镜像"
+              "title": "通过ipvs创建双向代理"
             }
           },
           {
-            "id": "f519e89b4fb4a928",
+            "id": "ea5cc3d2d684b569",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/rgw用户记录.md",
+                "file": "zuler/openstack/ocfs2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rgw用户记录"
+              "title": "ocfs2"
+            }
+          },
+          {
+            "id": "8b5fbc1f3060dfa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/BlueStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BlueStore"
+            }
+          },
+          {
+            "id": "7d271d73a645f0bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/openstack/ocfs2测试用例.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ocfs2测试用例"
             }
           }
         ],
@@ -193,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zuler/ubuntu.md",
+                "file": "zuler/openstack/ocfs2测试用例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ubuntu 的反向链接列表"
+              "title": "ocfs2测试用例 的反向链接列表"
             }
           },
           {
@@ -212,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zuler/ubuntu.md",
+                "file": "zuler/openstack/ocfs2测试用例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ubuntu 的出链列表"
+              "title": "ocfs2测试用例 的出链列表"
             }
           },
           {
@@ -241,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/ubuntu.md",
+                "file": "zuler/openstack/ocfs2测试用例.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ubuntu 的大纲"
+              "title": "ocfs2测试用例 的大纲"
             }
           },
           {
@@ -261,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -279,34 +251,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "585a91bb184ba562",
+  "active": "7d271d73a645f0bb",
   "lastOpenFiles": [
-    "未命名.md",
+    "zuler/FIO工具使用.md",
+    "zuler/openstack/ocfs2测试用例.md",
+    "待办清单.md",
     "个人技术栈.md",
-    "zuler/sftpgo文档记录/支持项.md",
-    "zuler/sftpgo文档记录/HOOK.md",
-    "zuler/sftpgo文档记录/REST api.md",
-    "zuler/sftpgo文档记录/sftpgo docker.md",
-    "zuler/sftpgo文档记录/sftpgo函数io流程调用结构.md",
-    "zuler/sftpgo文档记录/sftpgo虚拟机部署.md",
-    "zuler/sftpgo文档记录/zuler fs onepage.md",
-    "zuler/openstack/ocfs2.md",
-    "zuler/openstack/openstack部署.md",
-    "zuler/ubuntu.md",
-    "zuler/openstack/libvirt.md",
-    "zuler/openstack/openstack结构.md",
-    "zuler/openstack/openstack基础命令.md",
-    "zuler/服务器配置.md",
-    "zuler/openstack/openstack替换镜像.md",
-    "zuler/rgw用户记录.md",
-    "zuler/TCP滑动窗口.md",
-    "zuler/清理bcache.md",
-    "zuler/磁盘逻辑.md",
-    "zuler/Ceph/OSD/udev.md",
-    "zuler/iscsi/深信服虚拟机配置.md",
-    "zuler/iscsi/iscsi配置.md",
-    "zuler/iscsi/ISCSI协议.md",
+    "通过ipvs创建双向代理.md",
     "README.md",
+    "zuler/openstack/cinder.md",
+    "zuler/Ceph/RBD/RBD特性.md",
+    "zuler/Ceph/RBD/RBD mirror 操作流程.md",
+    "zuler/Ceph/RBD/RBD IO.md",
+    "zuler/openstack/openstack.md",
+    "zuler/openstack/openstack & ceph.md",
+    "zuler/openstack/openstack部署.md",
+    "zuler/openstack/openstack扩容.md",
+    "zuler/openstack/openstack命令.md",
+    "zuler/openstack/openstack替换镜像.md",
+    "zuler/openstack/libvirt.md",
+    "zuler/openstack/ocfs2.md",
+    "未命名 1.md",
+    "未命名.md",
+    "zuler/openstack/openstack & ocfs2.md",
+    "PNG/Pasted image 20250702153853.png",
+    "zuler/Ceph/AsyncMessenger 网络模块总结.md",
+    "zuler/Ceph/BlueStore.md",
+    "zuler/Ceph/Ceph 运维手册.md",
+    "zuler/Ceph/集群pg状态.md",
+    "zuler/Ceph/RBD/RBD QOS.md",
     "PNG/Pasted image 20250612174956.png",
     "PNG/Pasted image 20250612165921.png",
     "PNG/Pasted image 20250612165910.png",
@@ -317,7 +290,6 @@
     "PNG/Pasted image 20250529162609.png",
     "PNG/Pasted image 20250529162016.png",
     "PNG/Pasted image 20250529161833.png",
-    "PNG/Pasted image 20250529160238.png",
     "zuler/openstack"
   ]
 }

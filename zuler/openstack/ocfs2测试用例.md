@@ -1,6 +1,7 @@
 [Cinder/tested-3rdParty-drivers](https://wiki.openstack.org/wiki/Cinder/tested-3rdParty-drivers)
 [cinder下driver开发指导](https://docs.openstack.org/cinder/latest/contributor/drivers.html#core-functionality)
 [cinder New Driver Review Checklist](https://docs.openstack.org/cinder/latest/contributor/new_driver_checklist.html)
+
 # 新增磁盘
 - 格式化文件系统后挂载即可
 ```
@@ -618,4 +619,53 @@ WARNING:cinderclient.shell:downgrading to 3.64 based on server support.
 +--------------------------------+-------------------------------------------------+
 ```
 # Volume Migration (host assisted)
-
+# 展示free_capacity_gb
+```
+$ cinder get-pools --detail
+WARNING:cinderclient.shell:API version 3.68 requested,
+WARNING:cinderclient.shell:downgrading to 3.64 based on server support.
++-----------------------------+------------------------------------------------------------------------------+
+| Property                    | Value                                                                        |
++-----------------------------+------------------------------------------------------------------------------+
+| allocated_capacity_gb       | 10                                                                           |
+| backend_state               | up                                                                           |
+| driver_version              | 1.2.0                                                                        |
+| filter_function             | None                                                                         |
+| free_capacity_gb            | 379.14                                                                       |
+| goodness_function           | None                                                                         |
+| location_info               | ceph:/etc/ceph/ceph.conf:c41486d4-4b61-11f0-8c60-f964ce3749b9:cinder:volumes |
+| max_over_subscription_ratio | 2.0                                                                          |
+| multiattach                 | True                                                                         |
+| name                        | sharehost@volumes#volumes                                                    |
+| replication_enabled         | False                                                                        |
+| reserved_percentage         | 0                                                                            |
+| storage_protocol            | ceph                                                                         |
+| thin_provisioning_support   | True                                                                         |
+| timestamp                   | 2025-07-07T07:46:32.187456                                                   |
+| total_capacity_gb           | 379.72                                                                       |
+| vendor_name                 | Open Source                                                                  |
+| volume_backend_name         | volumes                                                                      |
++-----------------------------+------------------------------------------------------------------------------+
++-----------------------------+----------------------------+
+| Property                    | Value                      |
++-----------------------------+----------------------------+
+| QoS_support                 | False                      |
+| allocated_capacity_gb       | 41                         |
+| driver_version              | 1.4.0                      |
+| filter_function             | None                       |
+| free_capacity_gb            | 592.6661415100098          |
+| goodness_function           | None                       |
+| max_over_subscription_ratio | 2.0                        |
+| name                        | sharehost@ocfs2#ocfs2      |
+| provisioned_capacity_gb     | 0.0                        |
+| reserved_percentage         | 0                          |
+| sparse_copy_volume          | True                       |
+| storage_protocol            | ocfs2                      |
+| thick_provisioning_support  | False                      |
+| thin_provisioning_support   | True                       |
+| timestamp                   | 2025-07-07T07:45:52.079569 |
+| total_capacity_gb           | 599.98828125               |
+| vendor_name                 | Open Source                |
+| volume_backend_name         | ocfs2                      |
++-----------------------------+----------------------------+
+```

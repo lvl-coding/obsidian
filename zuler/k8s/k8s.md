@@ -1,4 +1,9 @@
 Kubernetes 是一个可移植、可扩展的开源平台，用于管理容器化的工作负载和服务，方便进行声明式配置和自动化。Kubernetes 拥有一个庞大且快速增长的生态系统，其服务、支持和工具的使用范围广泛。
+[名词解释 Pods](https://www.kubernetes.org.cn/kubernetes-pod)
+[Kubernetes kubectl edit 命令详解](http://docs.kubernetes.org.cn/623.html)
+[Kubernetes 文档](https://kubernetes.io/zh-cn/docs/)
+[k8s中几个基本概念的理解，pod,service,deployment,ingress的使用场景](https://www.cnblogs.com/ricklz/p/16684420.html "发布于 2022-09-11 17:22")
+[k8s学习-思维导图与学习笔记](https://blog.csdn.net/lady_killer9/article/details/124544947)
 
 ```
     1  cd /etc/sudoers.d/

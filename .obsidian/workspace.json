@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/k8s/prometheus监控控制器.md",
+                "file": "zuler/k8s/k8s.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prometheus监控控制器"
+              "title": "k8s"
             }
           }
         ],
@@ -309,15 +309,15 @@
   },
   "active": "1266c06086f3b6b8",
   "lastOpenFiles": [
-    "zuler/k8s/k8s.md",
     "zuler/k8s/prometheus监控控制器.md",
+    "zuler/k8s/k8s.md",
+    "zuler/GO语言.md",
     "zuler/k8s",
     "zuler/openstack/openstack命令.md",
     "待办清单.md",
     "个人技术栈.md",
     "zuler/grpc/接口文档.md",
     "zuler/grpc/grpc.md",
-    "zuler/GO语言.md",
     "zuler/本地docker镜像源.md",
     "README.md",
     "zuler/ubuntu.md",

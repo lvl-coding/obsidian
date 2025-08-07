@@ -4,6 +4,7 @@ $ qemu-img create -f qcow2 vda.qcow2 250G
 $ virsh define vm.xml
 $ virsh edit lyl-g
 
+$ virsh attach-disk lyl-g /home/kvirtadm/vms/lyl/lyl-g/vdb.qcow2 vdb --subdriver qcow2 #添加磁盘
 ```
 
 ```xml

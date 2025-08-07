@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/k8s/k8s.md",
+                "file": "待办清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k8s"
+              "title": "待办清单"
             }
           }
         ],
@@ -180,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Registry",
+                "query": "xml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -269,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/openstack/ocfs2测试用例.md",
+                "file": "待办清单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ocfs2测试用例 的大纲"
+              "title": "待办清单 的大纲"
             }
           },
           {
@@ -307,47 +307,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1266c06086f3b6b8",
+  "active": "585a91bb184ba562",
   "lastOpenFiles": [
+    "zuler/Ceph/ceph命令.md",
+    "zuler/Ceph/ceph dashboard SSO登录.md",
+    "zuler/Ceph/RBD/RBD IO.md",
+    "zuler/Ceph/RBD/RBD特性.md",
+    "zuler/Ceph/RBD/RBD QOS.md",
     "zuler/k8s/prometheus监控控制器.md",
     "zuler/k8s/k8s.md",
-    "zuler/GO语言.md",
-    "zuler/k8s",
-    "zuler/openstack/openstack命令.md",
     "待办清单.md",
-    "个人技术栈.md",
-    "zuler/grpc/接口文档.md",
-    "zuler/grpc/grpc.md",
-    "zuler/本地docker镜像源.md",
-    "README.md",
-    "zuler/ubuntu.md",
+    "zuler/bcache.md",
+    "zuler/Ceph/OSD/udev.md",
+    "zuler/Ceph/OSD/OSD启动流程网页资料.md",
+    "zuler/Ceph/OSD/创建OSD服务.md",
+    "zuler/Ceph/OSD/ceph-volume.md",
+    "zuler/Ceph/OSD/OSD参数.md",
+    "zuler/Ceph/OSD/OSD服务.md",
+    "zuler/服务器配置.md",
+    "zuler/Ceph/Ceph 运维手册.md",
+    "zuler/Ceph/ceph 告警规则.md",
+    "zuler/Ceph/问题排查.md",
+    "PNG/Pasted image 20250730201829.png",
+    "PNG/Pasted image 20250730180915.png",
     "zuler/kvm虚拟机.md",
+    "zuler/openstack/ocfs2测试用例.md",
+    "zuler/openstack/ocfs2.md",
     "zuler/openstack/cinder.md",
+    "zuler/iscsi/ISCSI协议.md",
+    "zuler/iscsi/iscsi配置.md",
+    "zuler/iscsi/深信服虚拟机配置.md",
+    "zuler/k8s",
     "zuler/grpc",
     "PNG/Pasted image 20250708161744.png",
     "PNG/Pasted image 20250708142027.png",
     "PNG/Pasted image 20250707172540.png",
-    "zuler/openstack/libvirt.md",
-    "zuler/openstack/ocfs2测试用例.md",
-    "zuler/FIO工具使用.md",
-    "通过ipvs创建双向代理.md",
-    "zuler/Ceph/RBD/RBD特性.md",
-    "zuler/Ceph/RBD/RBD mirror 操作流程.md",
-    "zuler/Ceph/RBD/RBD IO.md",
-    "zuler/openstack/openstack.md",
-    "zuler/openstack/openstack & ceph.md",
-    "zuler/openstack/openstack部署.md",
-    "zuler/openstack/openstack扩容.md",
-    "zuler/openstack/openstack替换镜像.md",
-    "zuler/openstack/ocfs2.md",
     "PNG/Pasted image 20250702153853.png",
     "PNG/Pasted image 20250612174956.png",
     "PNG/Pasted image 20250612165921.png",
     "PNG/Pasted image 20250612165910.png",
     "未命名.canvas",
     "PNG/Pasted image 20250530150501.png",
-    "PNG/Pasted image 20250527121211.png",
-    "PNG/Pasted image 20250529162717.png",
     "zuler/openstack"
   ]
 }

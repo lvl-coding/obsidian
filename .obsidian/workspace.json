@@ -8,147 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95d3e2bbd033bd32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/ocfs2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ocfs2"
-            }
-          },
-          {
-            "id": "a776447cdbcf597d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/ubuntu.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ubuntu"
-            }
-          },
-          {
-            "id": "fa1b89c6f19f92c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "通过ipvs创建双向代理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "通过ipvs创建双向代理"
-            }
-          },
-          {
-            "id": "ea5cc3d2d684b569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/ocfs2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ocfs2"
-            }
-          },
-          {
-            "id": "8b5fbc1f3060dfa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/Ceph/BlueStore.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BlueStore"
-            }
-          },
-          {
-            "id": "7d271d73a645f0bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/openstack/cinder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cinder"
-            }
-          },
-          {
-            "id": "2cf6ccd946968952",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/GO语言.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GO语言"
-            }
-          },
-          {
-            "id": "e7393c4c96bb8056",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/ubuntu.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ubuntu"
-            }
-          },
-          {
-            "id": "f56bd6c772741ca6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zuler/grpc/grpc.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "grpc"
-            }
-          },
-          {
             "id": "1266c06086f3b6b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待办清单.md",
+                "file": "zuler/Ceph/SSD与HDD加速.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待办清单"
+              "title": "SSD与HDD加速"
+            }
+          },
+          {
+            "id": "2e47e0e868383040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/bcache.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bcache"
+            }
+          },
+          {
+            "id": "9f0a3e364d2efa5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/cache tier.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cache tier"
+            }
+          },
+          {
+            "id": "2cbafd27e6e4f122",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/bcache.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bcache"
+            }
+          },
+          {
+            "id": "f005d4b7c9c2aca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/OSD/wal与db.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "wal与db"
+            }
+          },
+          {
+            "id": "a738521ae563bb2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/cache tier.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cache tier"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +112,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -269,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "待办清单.md",
+                "file": "zuler/bcache.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "待办清单 的大纲"
+              "title": "bcache 的大纲"
             }
           },
           {
@@ -307,36 +251,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "585a91bb184ba562",
+  "active": "2e47e0e868383040",
   "lastOpenFiles": [
-    "zuler/Ceph/ceph命令.md",
-    "zuler/Ceph/ceph dashboard SSO登录.md",
-    "zuler/Ceph/RBD/RBD IO.md",
-    "zuler/Ceph/RBD/RBD特性.md",
-    "zuler/Ceph/RBD/RBD QOS.md",
-    "zuler/k8s/prometheus监控控制器.md",
-    "zuler/k8s/k8s.md",
-    "待办清单.md",
+    "zuler/Ceph/SSD与HDD加速.md",
+    "zuler/Ceph/cache tier.md",
     "zuler/bcache.md",
-    "zuler/Ceph/OSD/udev.md",
-    "zuler/Ceph/OSD/OSD启动流程网页资料.md",
+    "zuler/Ceph/OSD/wal与db.md",
+    "zuler/Ceph/RBD/cache.md",
+    "zuler/Ceph/RBD/RBD特性.md",
     "zuler/Ceph/OSD/创建OSD服务.md",
     "zuler/Ceph/OSD/ceph-volume.md",
-    "zuler/Ceph/OSD/OSD参数.md",
+    "zuler/Ceph/OSD/OSD启动流程网页资料.md",
+    "zuler/Ceph/OSD/OSD启动流程.md",
+    "zuler/Ceph/OSD/OSD换盘.md",
     "zuler/Ceph/OSD/OSD服务.md",
-    "zuler/服务器配置.md",
-    "zuler/Ceph/Ceph 运维手册.md",
-    "zuler/Ceph/ceph 告警规则.md",
+    "zuler/Ceph/OSD/OSD参数.md",
+    "zuler/Ceph/OSD/udev.md",
+    "zuler/Ceph/OSD/SSD对HDD加速.md",
+    "zuler/Ceph/ceph版本迭代.md",
+    "PNG/Pasted image 20250807170235.png",
+    "zuler/Ceph/cephadm部署.md",
     "zuler/Ceph/问题排查.md",
+    "zuler/grpc/grpc.md",
+    "zuler/ubuntu.md",
+    "zuler/GO语言.md",
+    "zuler/openstack/cinder.md",
+    "zuler/Ceph/BlueStore.md",
+    "zuler/openstack/ocfs2.md",
+    "通过ipvs创建双向代理.md",
+    "PNG/Pasted image 20250807102031.png",
+    "待办清单.md",
     "PNG/Pasted image 20250730201829.png",
     "PNG/Pasted image 20250730180915.png",
-    "zuler/kvm虚拟机.md",
-    "zuler/openstack/ocfs2测试用例.md",
-    "zuler/openstack/ocfs2.md",
-    "zuler/openstack/cinder.md",
-    "zuler/iscsi/ISCSI协议.md",
-    "zuler/iscsi/iscsi配置.md",
-    "zuler/iscsi/深信服虚拟机配置.md",
     "zuler/k8s",
     "zuler/grpc",
     "PNG/Pasted image 20250708161744.png",
@@ -345,9 +291,7 @@
     "PNG/Pasted image 20250702153853.png",
     "PNG/Pasted image 20250612174956.png",
     "PNG/Pasted image 20250612165921.png",
-    "PNG/Pasted image 20250612165910.png",
     "未命名.canvas",
-    "PNG/Pasted image 20250530150501.png",
     "zuler/openstack"
   ]
 }

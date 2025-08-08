@@ -1,4 +1,9 @@
 [Bcache详解及踩坑记录](https://zhuanlan.zhihu.com/p/682979765)
+
+# 优势
+- bcache的优势在于可以将SSD资源池化，一块SSD可对应多块HDD，形成一个缓存池
+- 支持从缓存池中划出瘦分配的纯flash卷（thin-flash LUN）单独使用。
+- 采用一棵相对标准的B+树作为索引，命中率会有很大提高
 # 创建Bcache设备
 创建bcache设备需要用到[bcache-tools](https://zhida.zhihu.com/search?content_id=239903397&content_type=Article&match_order=1&q=bcache-tools&zhida_source=entity)工具，ubuntu和suse中默认已安装bcache-tool工具。
 
@@ -112,6 +117,7 @@ echo 40 > /sys/block/bcache$i/bcache/writeback_percent
 - cache_mode，设置BCache设备的缓存模式为"writeback"
 - 设置BCache设备的顺序截断（sequential cutoff）。顺序截断是指当连续IO操作的大小超过该阈值时，BCache会将这些IO操作视为顺序访问，而不会缓存到缓存中。这有助于避免将大量连续IO操作缓存到BCache中，保持缓存的有效性。这里的1024*1024表示1MB。
 - 设置BCache设备的写回百分比（writeback percent）。写回百分比表示当缓存容量占用达到一定百分比时，BCache会开始执行写回操作。
+
 
 # tips
 ## 内核版本

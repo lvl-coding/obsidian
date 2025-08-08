@@ -1,0 +1,2 @@
+WAL设备：标识为`block.wal`，可用于分离BlueStore的内部日志或提前写入日志。只有当WAL设备比主设备快时（例如，如果WAL设备是SSD，主设备是HDD），指定WAL设备才有优势。
+DB设备：标识为`block.db`，用于存储BlueStore的内部元数据。BlueStore即内部的RocksDB将尽可能多地在DB设备上放置元数据，以提高性能。如果数据库设备已满，元数据将溢出到主设备上。同样，只有当DB设备比主设备快时，才有优势。

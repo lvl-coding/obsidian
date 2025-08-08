@@ -1,0 +1,1 @@
+将block.db和block.wal存放至快速设备SSD上

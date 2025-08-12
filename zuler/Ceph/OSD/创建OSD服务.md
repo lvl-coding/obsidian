@@ -30,6 +30,7 @@ spec:
     - /dev/sdf
     - /dev/sdg
 ```
+## 清理lvm
 ```bash
 lvs | awk '$2 ~ /^ceph-/ {print $2}' | xargs -I {} lvremove -y {}
 lvs | awk '$2 ~ /^ceph-/ && $6 < "7.28t" {print $1, $2}' | while read -r lv vg; do lvremove -y "$vg/$lv"; done

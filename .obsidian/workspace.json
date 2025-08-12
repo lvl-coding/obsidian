@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/Ceph/SSD与HDD加速.md",
+                "file": "zuler/Ceph/OSD/bcache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSD与HDD加速"
+              "title": "bcache"
             }
           },
           {
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/bcache.md",
+                "file": "zuler/Ceph/ceph命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bcache"
+              "title": "ceph命令"
+            }
+          },
+          {
+            "id": "3338be7ccf8b0ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/磁盘逻辑.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "磁盘逻辑"
             }
           },
           {
@@ -55,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/bcache.md",
+                "file": "zuler/Ceph/OSD/bcache测试验证.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bcache"
+              "title": "bcache测试验证"
             }
           },
           {
@@ -92,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xml",
+                "query": "remove",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,36 +265,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e47e0e868383040",
+  "active": "2cbafd27e6e4f122",
   "lastOpenFiles": [
+    "zuler/Ceph/OSD/ceph-volume.md",
+    "zuler/磁盘逻辑.md",
+    "zuler/Ceph/OSD/bcache.md",
+    "zuler/Ceph/ceph命令.md",
+    "zuler/Ceph/OSD/bcache测试验证.md",
     "zuler/Ceph/SSD与HDD加速.md",
     "zuler/Ceph/cache tier.md",
-    "zuler/bcache.md",
-    "zuler/Ceph/OSD/wal与db.md",
-    "zuler/Ceph/RBD/cache.md",
-    "zuler/Ceph/RBD/RBD特性.md",
-    "zuler/Ceph/OSD/创建OSD服务.md",
-    "zuler/Ceph/OSD/ceph-volume.md",
-    "zuler/Ceph/OSD/OSD启动流程网页资料.md",
-    "zuler/Ceph/OSD/OSD启动流程.md",
-    "zuler/Ceph/OSD/OSD换盘.md",
-    "zuler/Ceph/OSD/OSD服务.md",
-    "zuler/Ceph/OSD/OSD参数.md",
-    "zuler/Ceph/OSD/udev.md",
-    "zuler/Ceph/OSD/SSD对HDD加速.md",
-    "zuler/Ceph/ceph版本迭代.md",
-    "PNG/Pasted image 20250807170235.png",
-    "zuler/Ceph/cephadm部署.md",
-    "zuler/Ceph/问题排查.md",
-    "zuler/grpc/grpc.md",
     "zuler/ubuntu.md",
-    "zuler/GO语言.md",
-    "zuler/openstack/cinder.md",
+    "zuler/lvm命令参数.md",
+    "zuler/windows脚本.md",
+    "zuler/Ceph/OSD/创建OSD服务.md",
+    "zuler/服务器配置.md",
+    "zuler/Ceph/OSD/wal与db.md",
+    "note.md",
+    "PNG/企业微信截图_87c1d0b6-677c-4c6a-a105-942e687910cf.png",
+    "PNG/企业微信截图_bf4d3fd7-a32b-4dc6-9755-28ab1fa6aca5.png",
     "zuler/Ceph/BlueStore.md",
-    "zuler/openstack/ocfs2.md",
-    "通过ipvs创建双向代理.md",
+    "zuler/Ceph/PG综述.md",
+    "zuler/Ceph/PG数目计算.md",
+    "zuler/Ceph/OSD中对Recovery速率限制参数.md",
+    "zuler/Ceph/k8s上rook安装部署.md",
+    "zuler/Ceph/Cls模块.md",
+    "zuler/Ceph/cephadm部署.md",
+    "zuler/Ceph/cephadm.md",
+    "zuler/Ceph/ceph配置文件.md",
+    "zuler/Ceph/ceph版本迭代.md",
+    "zuler/Ceph/ceph-volume.md",
+    "zuler/Ceph/ceph dashboard SSO登录.md",
+    "PNG/Pasted image 20250807170235.png",
     "PNG/Pasted image 20250807102031.png",
-    "待办清单.md",
     "PNG/Pasted image 20250730201829.png",
     "PNG/Pasted image 20250730180915.png",
     "zuler/k8s",
@@ -289,8 +305,6 @@
     "PNG/Pasted image 20250708142027.png",
     "PNG/Pasted image 20250707172540.png",
     "PNG/Pasted image 20250702153853.png",
-    "PNG/Pasted image 20250612174956.png",
-    "PNG/Pasted image 20250612165921.png",
     "未命名.canvas",
     "zuler/openstack"
   ]

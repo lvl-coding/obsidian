@@ -669,3 +669,6 @@ WARNING:cinderclient.shell:downgrading to 3.64 based on server support.
 | volume_backend_name         | ocfs2                      |
 +-----------------------------+----------------------------+
 ```
+# 开机自启维护
+系统重启后ocfs文件系统自动挂载，cinder_volume服务正常识别
+

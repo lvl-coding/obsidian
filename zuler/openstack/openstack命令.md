@@ -8,5 +8,6 @@ $ openstack aggregate list
 $ openstack aggregate create --zone test test
 $ openstack aggregate add host test cluster91
 $ openstack aggregate remove host test cluster90
+$ 
 ```
 

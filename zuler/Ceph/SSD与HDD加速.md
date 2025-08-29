@@ -1,7 +1,7 @@
 # cache tier
 [[cache tier]]
 # bcache
-[[bcache]]
+[[bcache 创建与删除]]
 # osd db/wal
 [[wal与db]]
 

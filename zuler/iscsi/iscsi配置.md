@@ -51,4 +51,5 @@ node.startup = automatic
 $ systemctl restart open-iscsi iscsid
 $ iscsiadm -m node -T iqn.2021-03.bee.com:lun1 -p 192.168.10.89 -l
 $ fdisk -l
+$ iscsiadm -m node --targetname iqn.2004-10.com.ubuntu:01:c6b852bc3730 -p 192.168.10.55 -o update -n node.startup -v automatic
 ```

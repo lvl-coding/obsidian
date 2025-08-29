@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zuler/Ceph/OSD/bcache 配置.md",
+                "file": "待办清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bcache 配置"
+              "title": "待办清单"
+            }
+          },
+          {
+            "id": "210687d797652e68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zuler/Ceph/OSD/bcache 创建与删除.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bcache 创建与删除"
+            }
+          },
+          {
+            "id": "8278540e8006389e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "待办清单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待办清单"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -96,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "remove",
+                "query": "glu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zuler/Ceph/OSD/bcache 配置.md",
+                "file": "待办清单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "bcache 配置 的大纲"
+              "title": "待办清单 的大纲"
             }
           },
           {
@@ -226,34 +254,35 @@
   },
   "active": "585a91bb184ba562",
   "lastOpenFiles": [
-    "zuler/Ceph/ceph配置文件.md",
-    "zuler/Ceph/OSD/bcache 配置.md",
-    "zuler/服务器配置.md",
-    "zuler/Ceph/OSD/bcache测试验证.md",
-    "zuler/磁盘逻辑.md",
-    "zuler/Ceph/cache tier.md",
-    "zuler/Ceph/OSD/wal与db.md",
-    "zuler/Ceph/ceph命令.md",
-    "zuler/Ceph/ceph版本迭代.md",
-    "zuler/Ceph/OSD/bcache.md",
+    "zuler/iscsi/深信服虚拟机配置.md",
     "待办清单.md",
-    "个人技术栈.md",
-    "通过ipvs创建双向代理.md",
-    "note.md",
-    "zuler/Ceph/OSD/ceph-volume.md",
-    "README.md",
-    "zuler/Ceph/OSD/OSD参数.md",
-    "zuler/Ceph/OSD/OSD服务.md",
-    "zuler/Ceph/SSD与HDD加速.md",
-    "zuler/ubuntu.md",
-    "zuler/lvm命令参数.md",
     "zuler/windows脚本.md",
+    "zuler/ubuntu.md",
+    "zuler/RBD远端挂载.md",
+    "zuler/kvm虚拟机.md",
+    "zuler/服务器配置.md",
+    "zuler/Ceph/OSD/bcache 创建与删除.md",
+    "zuler/Ceph/OSD/bcache 维护.md",
+    "zuler/iscsi/iscsi配置.md",
+    "zuler/iscsi/ISCSI协议.md",
+    "zuler/openstack/ocfs2测试用例.md",
+    "zuler/openstack/ocfs2.md",
+    "zuler/Ceph/OSD/bcache测试验证.md",
+    "zuler/openstack/ocfs2性能测试.md",
+    "lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
+    "OneNote/lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
+    "OneNote/lyl的笔记本/难题/遗留问题.md",
+    "lyl的笔记本/难题/遗留问题.md",
+    "zuler/openstack/openstack命令.md",
+    "zuler/Ceph/ceph命令.md",
+    "zuler/lvm命令参数.md",
     "zuler/Ceph/OSD/创建OSD服务.md",
+    "zuler/Ceph/OSD/OSD参数.md",
+    "zuler/openstack/libvirt.md",
+    "zuler/openstack/cinder.md",
+    "zuler/prometheus",
     "PNG/企业微信截图_87c1d0b6-677c-4c6a-a105-942e687910cf.png",
     "PNG/企业微信截图_bf4d3fd7-a32b-4dc6-9755-28ab1fa6aca5.png",
-    "zuler/Ceph/BlueStore.md",
-    "zuler/Ceph/PG综述.md",
-    "zuler/Ceph/PG数目计算.md",
     "PNG/Pasted image 20250807170235.png",
     "PNG/Pasted image 20250807102031.png",
     "PNG/Pasted image 20250730201829.png",

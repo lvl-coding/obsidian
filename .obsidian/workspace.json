@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待办清单.md",
+                "file": "lyl的笔记本/记帐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待办清单"
+              "title": "记帐"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "待办清单.md",
+                "file": "lyl的笔记本/记帐.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "待办清单 的大纲"
+              "title": "记帐 的大纲"
             }
           },
           {
@@ -252,10 +252,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "585a91bb184ba562",
+  "active": "8278540e8006389e",
   "lastOpenFiles": [
-    "zuler/iscsi/深信服虚拟机配置.md",
+    "lyl的笔记本/office激活账号.md",
+    "lyl的笔记本/记帐.md",
+    "note.md",
+    "README.md",
     "待办清单.md",
+    "zuler/iscsi/深信服虚拟机配置.md",
     "zuler/windows脚本.md",
     "zuler/ubuntu.md",
     "zuler/RBD远端挂载.md",
@@ -276,10 +280,6 @@
     "zuler/openstack/openstack命令.md",
     "zuler/Ceph/ceph命令.md",
     "zuler/lvm命令参数.md",
-    "zuler/Ceph/OSD/创建OSD服务.md",
-    "zuler/Ceph/OSD/OSD参数.md",
-    "zuler/openstack/libvirt.md",
-    "zuler/openstack/cinder.md",
     "zuler/prometheus",
     "PNG/企业微信截图_87c1d0b6-677c-4c6a-a105-942e687910cf.png",
     "PNG/企业微信截图_bf4d3fd7-a32b-4dc6-9755-28ab1fa6aca5.png",

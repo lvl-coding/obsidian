@@ -225,6 +225,7 @@ bcache在3.10版本开始合并到官方内核。在5.4内核版本中逐渐趋�
 ```bash
 $ blkid |grep bcache0
 /dev/bcache0: UUID="ed31e3ca-9bec-44bb-aa1a-a2a3ed428cb2" TYPE="xfs"
+$ mount -t ocfs2 UUID=ed31e3ca-9bec-44bb-aa1a-a2a3ed428cb2 /var/opt/mnt/ocfs2/192.168.10.89_sda -o noatime
 ```
 ## 垃圾回收（gc）对性能的影响
 由于Bcache在存储数据和元数据时，均是追加写，因此需要及时进行垃圾回收。将不再使用的存储空间回收后，供后续申请使用。

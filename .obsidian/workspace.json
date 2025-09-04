@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lyl的笔记本/记帐.md",
+                "file": "zuler/openstack/ocfs2测试用例.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "记帐"
+              "title": "ocfs2测试用例"
             }
           }
         ],
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "glu",
+                "query": "设备",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lyl的笔记本/记帐.md",
+                "file": "zuler/openstack/ocfs2测试用例.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "记帐 的大纲"
+              "title": "ocfs2测试用例 的大纲"
             }
           },
           {
@@ -233,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -249,37 +249,47 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "8278540e8006389e",
   "lastOpenFiles": [
-    "lyl的笔记本/office激活账号.md",
-    "lyl的笔记本/记帐.md",
-    "note.md",
-    "README.md",
+    "zuler/openstack/ocfs2测试用例.md",
+    "未命名.canvas",
+    "未命名.base",
+    "未命名 7.base",
+    "未命名 6.base",
+    "未命名 5.base",
+    "未命名 4.base",
+    "未命名 3.base",
+    "未命名 2.base",
+    "未命名 1.base",
+    "zuler/Ceph/OSD/bcache 维护.md",
+    "zuler/Ceph/OSD/bcache 创建与删除.md",
+    "zuler/Ceph/OSD/bcache测试验证.md",
+    "zuler/Ceph/OSD/创建OSD服务.md",
+    "zuler/openstack/ocfs2.md",
+    "zuler/服务器配置.md",
+    "zuler/磁盘逻辑.md",
     "待办清单.md",
+    "zuler/openstack/ocfs2性能测试.md",
+    "zuler/本地docker镜像源.md",
+    "PNG/Pasted image 20250901160157.png",
     "zuler/iscsi/深信服虚拟机配置.md",
+    "zuler/openstack/openstack.md",
+    "zuler/openstack/libvirt.md",
+    "zuler/openstack/cinder.md",
+    "zuler/openstack/cinder retype.md",
+    "README.md",
+    "lyl的笔记本/记录.md",
+    "zuler/Ceph/ceph dashboard SSO登录.md",
+    "lyl的笔记本/线程和协程的区别是什么？.md",
+    "lyl的笔记本/记帐.md",
+    "lyl的笔记本/office激活账号.md",
+    "note.md",
     "zuler/windows脚本.md",
     "zuler/ubuntu.md",
-    "zuler/RBD远端挂载.md",
-    "zuler/kvm虚拟机.md",
-    "zuler/服务器配置.md",
-    "zuler/Ceph/OSD/bcache 创建与删除.md",
-    "zuler/Ceph/OSD/bcache 维护.md",
-    "zuler/iscsi/iscsi配置.md",
-    "zuler/iscsi/ISCSI协议.md",
-    "zuler/openstack/ocfs2测试用例.md",
-    "zuler/openstack/ocfs2.md",
-    "zuler/Ceph/OSD/bcache测试验证.md",
-    "zuler/openstack/ocfs2性能测试.md",
-    "lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
-    "OneNote/lyl的笔记本/Linux/iostat -d -x -k 1 1.md",
-    "OneNote/lyl的笔记本/难题/遗留问题.md",
-    "lyl的笔记本/难题/遗留问题.md",
-    "zuler/openstack/openstack命令.md",
-    "zuler/Ceph/ceph命令.md",
-    "zuler/lvm命令参数.md",
     "zuler/prometheus",
     "PNG/企业微信截图_87c1d0b6-677c-4c6a-a105-942e687910cf.png",
     "PNG/企业微信截图_bf4d3fd7-a32b-4dc6-9755-28ab1fa6aca5.png",
@@ -288,12 +298,8 @@
     "PNG/Pasted image 20250730201829.png",
     "PNG/Pasted image 20250730180915.png",
     "zuler/k8s",
-    "zuler/grpc",
     "PNG/Pasted image 20250708161744.png",
     "PNG/Pasted image 20250708142027.png",
-    "PNG/Pasted image 20250707172540.png",
-    "PNG/Pasted image 20250702153853.png",
-    "未命名.canvas",
-    "zuler/openstack"
+    "PNG/Pasted image 20250707172540.png"
   ]
 }

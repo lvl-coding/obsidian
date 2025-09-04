@@ -25,6 +25,17 @@ $ mount | grep sdc
 2025-06-25 16:39:57.300 70 INFO cinder.volume.manager [req-446381eb-0cbf-4d34-874b-27be5875bea6 5273db44a9cf42bbb456cb1d0709251a 5be4d7808b7b45cea69010428c166a48 - - -] Created volume successfully.
 2025-06-25 16:40:36.204 70 WARNING cinder.volume.drivers.ocfs2 [req-05f0ca3c-f859-4008-bec1-c220bbdb424a - - - - -] OCFS2 share /var/lib/cinder/ocfs2/192.168.10.91_sda is not mounted.
 ```
+原因是docker的mount方式为`rprivate`，使子目录的mount事件未从宿主机体现到docker内
+```
+            {
+                "Type": "bind",
+                "Source": "/var/opt/mnt/ocfs2",
+                "Destination": "/var/lib/mnt/ocfs2",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+```
 # 删除o2cb节点
 ```bash
 # 卸载已挂载设备
@@ -671,4 +682,11 @@ WARNING:cinderclient.shell:downgrading to 3.64 based on server support.
 ```
 # 开机自启维护
 系统重启后ocfs文件系统自动挂载，cinder_volume服务正常识别
+# retype自动迁移失败
+在`copy volume data`接口中获取attach信息时由于`os-brick`模块中未添加remotefs的client端实现和ocfs2类型而返错。
+## remotefs未实现的缺陷范围：
+- 挂载点管理和挂载检测
+- 共享配置和挂载参数
+- 安全选项和权限管理
+对卷挂载检测、基本卷操作正常，但无统一管理的功能实现
 
